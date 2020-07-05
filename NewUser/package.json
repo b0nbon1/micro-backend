@@ -1,0 +1,27 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "micro-services example",
+  "author": "Bonvic Bundi<nyabuyabonvic@gmail.com>",
+  "license": "GNU",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon dist/index.js",
+    "build:dev": "tsc --watch --preserveWatchOutput",
+    "watch": "concurrently \"npm:build:dev\" \"npm:start:dev\""
+  },
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "class-validator": "^0.12.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.13.0",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.13",
+    "@types/express": "^4.17.6",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
