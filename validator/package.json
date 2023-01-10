@@ -14,7 +14,7 @@
     "amqplib": "^0.5.6",
     "class-validator": "^0.12.2",
     "express": "^4.17.1",
-    "firebase-admin": "^8.13.0",
+    "firebase-admin": "^11.4.1",
     "typescript": "^3.9.6"
   },
   "devDependencies": {
